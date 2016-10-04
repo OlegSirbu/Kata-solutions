@@ -8,11 +8,12 @@
 
 // solutions
 function generateRange(min, max, step){
-    var count = (max - min)/step;
+    var count = parseInt((max - min)/step);
     var data = [min];
     for(var i = 0; count>i;i++){
         data.push(data[data.length-1]+step);
     }
     return data;
 }
-generateRange(2,10,2); //[2,4,6,8,10]
+// generateRange(2,10,2); //[2,4,6,8,10]
+generateRange(1, 10, 4); //[1, 5, 9]
