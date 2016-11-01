@@ -1,2 +1,4 @@
 # Kata-solutions
-it is repo with solutions for site codewars.com
+It is repo with solutions for different tasks 
+
+codewars.com
