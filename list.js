@@ -11,3 +11,6 @@ function list(names){
 }
 
 list([ {name: 'Bart'}, {name: 'Lisa'}, {name: 'Maggie'} ]);
+
+
+// com 1
